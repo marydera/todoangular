@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.todo-container {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+  
+  input {
+    padding: 8px;
+    margin: 8px 0;
+    width: calc(100% - 20px);
+  }
+  
+  button {
+    padding: 8px 12px;
+    margin: 8px;
+    background-color: red;
+    color: white;
+    border: none;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    background-color: #f4f4f4;
+    margin: 8px 0;
+    border-radius: 4px;
+  }
+  
